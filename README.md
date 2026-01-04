@@ -4,7 +4,7 @@ Production-grade foundation for building high-performance Polymarket trading bot
 
 ## What This Is
 
-Core infrastructure for algorithmic trading on Polymarket. Handles the hard parts - WebSocket management, concurrent execution, event normalization - so you can focus on strategy logic.
+Core infrastructure for algorithmic trading on Polymarket. Handles some of the hard parts (WebSocket management, concurrent execution, event normalization) so you can focus on strategy logic.
 
 Each asset (BTC, ETH, SOL, XRP) runs in complete isolation with its own async task, state machine, and watcher instances. A failure in one asset doesn't cascade to others.
 
